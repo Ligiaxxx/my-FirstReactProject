@@ -4,11 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    // "dev": "vite",
+    "start": "json-server -w db.json",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "json-server-auth": "^2.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
