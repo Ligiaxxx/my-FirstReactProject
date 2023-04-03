@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    // "dev": "vite",
     "start": "json-server -w db.json",
+     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
