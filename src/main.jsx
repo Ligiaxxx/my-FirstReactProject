@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <App/> */}
     {/* <Nav/> */}
-    {/* <Form /> */}
-    <Login/>
+    <Form />
+    {/* <Login/> */}
   </React.StrictMode>,
 )
