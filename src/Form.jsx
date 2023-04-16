@@ -1,5 +1,7 @@
-import "../styles/Form.css";
+// import "../styles/Form.css";
 import React from 'react'
+import Todos from "./Todos/Todos";
+import  Login  from "./Login/Login";
 
 function Form() {
   // const [count, setCount] = useState(0)
@@ -18,6 +20,8 @@ function Form() {
 
   return (
     <div className="Form">
+      <Login/>
+
       <h1>Toma Ligia Patricia</h1>
       <div className="card">
         <ul className="about">

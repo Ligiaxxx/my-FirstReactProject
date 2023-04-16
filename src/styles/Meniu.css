@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+}
+
+.meniu {
+  float: right;
+  position: relative;
+}
+
+.main-img {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 1300px;
+  height: 713px;
+}
+
+.container {
+  background-color: white;
+  width: 1000px;
+  height: 710px;
+  position: relative;
+  margin-right: 100px;
+}
+.container h1 {
+  margin-left: 400px;
+  padding-top: 60px;
+  font-size: 60px;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 100px;
+}
+
+.navbar ul li {
+  list-style: none;
+  color: #b30000;
+  margin-top: 70px;
+  margin-right: 150px;
+  cursor: pointer;
+}
+
+.navbar li:hover {
+  text-decoration: underline;
+}
+
+.cart-img {
+  height: 50px;
+  position: relative;
+  margin-left: 1000px;
+}
+.cart-img img {
+  height: 40px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top:0.5rem;
+}
+.cart-img ul {
+  list-style: none;
+}
+.meniu-pizza {
+  position: relative;
+}
+
+.addBtn {
+  background-color: #b30000;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 70px;
+  border-color: #b30000;
+  border-radius: 20px;
+  height: 60px;
+  cursor: pointer;
+}
+.capriciosa {
+  position: absolute;
+  left: 0;
+  margin: 10px;
+}
+.capriciosa-img {
+  height: 260px;
+  width: 300px;
+  margin-left: 15px;
+}
+
+.provinciale {
+  position: absolute;
+  left: 33.3%;
+  margin: 10px;
+}
+.provinciale-img {
+  height: 260px;
+  width: 300px;
+  margin-left: 15px;
+}
+
+.quatro {
+  position: absolute;
+  left: 66.6%;
+  margin: 10px;
+}
+.quatro-img {
+  height: 260px;
+  width: 300px;
+  margin-left: 15px;
+}

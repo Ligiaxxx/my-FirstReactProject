@@ -1,0 +1,16 @@
+*{
+    margin:0;
+}
+
+.meniu{
+    float:right;
+    position: relative;
+}
+
+.main-img {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width:1300px;
+    height:713px;
+  }

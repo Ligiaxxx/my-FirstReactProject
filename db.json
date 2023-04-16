@@ -1,25 +1,76 @@
 {
   "users": [
     {
-      "id": 1,
-      "firstName": "Paul",
-      "lastName": "Negoescu",
-      "email": "p@p.com",
-      "password": "bla"
+      "username": "john_doe",
+      "password": "password123"
+    },
+    {
+      "username": "jane_doe",
+      "password": "secret123"
     }
   ],
   "todos": [
     {
-      "id": 1,
-      "title": "Buy Milk",
+      "title": "1",
       "userId": 1,
-      "completed": false
+      "completed": false,
+      "id": 1
     },
     {
-      "id": 2,
-      "title": "Take cat out for a walk",
+      "title": "2",
       "userId": 1,
-      "completed": true
+      "completed": true,
+      "id": 2
+    },
+    {
+      "title": "3",
+      "userId": 1,
+      "completed": true,
+      "id": 3
+    },
+    {
+      "title": "4",
+      "userId": 1,
+      "completed": false,
+      "id": 4
+    },
+    {
+      "title": "5",
+      "userId": 1,
+      "completed": false,
+      "id": 5
+    },
+    {
+      "title": "6",
+      "userId": 1,
+      "completed": false,
+      "id": 6
+    },
+    {
+      "title": "7",
+      "userId": 1,
+      "completed": false,
+      "id": 7
+    },
+    {
+      "title": "8",
+      "userId": 1,
+      "completed": false,
+      "id": 8
+    }
+  ],
+  "items": [
+    {
+      "name": "Pizza Quatro Stagioni",
+      "id": 3,
+      "price": 10.99,
+      "quantity": 1
+    },
+    {
+      "name": "Pizza Provinciale",
+      "id": 2,
+      "price": 10.99,
+      "quantity": 1
     }
   ]
 }

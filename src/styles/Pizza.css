@@ -1,0 +1,46 @@
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  .navigation img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .navigation a:hover {
+    color: #666;
+  }
+  
+  
+
+  .navigation li {
+    
+    font-size: 18px;
+    margin-bottom: 10px;
+    list-style-type: none;
+    color: #b30000;
+    text-decoration: none;  
+  
+  }
+  .navigation li:hover {
+    color: blue;
+
+  }
+
+ 
