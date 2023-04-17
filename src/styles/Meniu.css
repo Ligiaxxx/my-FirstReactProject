@@ -18,7 +18,7 @@
 .container {
   background-color: white;
   width: 1000px;
-  height: 710px;
+  height: 2010px;
   position: relative;
   margin-right: 100px;
 }
@@ -78,35 +78,46 @@
   height: 60px;
   cursor: pointer;
 }
-.capriciosa {
+.capriciosa, .carbonara, .chicken {
   position: absolute;
   left: 0;
   margin: 10px;
 }
-.capriciosa-img {
-  height: 260px;
-  width: 300px;
+.pizza-img, .paste-img, .meniuPui-img {
+  height: 200px;
+  width: 250px;
   margin-left: 15px;
 }
 
-.provinciale {
+.provinciale, .creamy, .aripioare {
   position: absolute;
   left: 33.3%;
   margin: 10px;
 }
-.provinciale-img {
-  height: 260px;
-  width: 300px;
-  margin-left: 15px;
-}
+
 
 .quatro {
   position: absolute;
   left: 66.6%;
   margin: 10px;
 }
-.quatro-img {
-  height: 260px;
-  width: 300px;
-  margin-left: 15px;
+
+.qf{
+  position: absolute;
+  left: 0;
+  margin: 10px;
+  margin-top:500px;
+}
+
+.casei{
+  position: absolute;
+  left: 33.3%;
+  margin: 10px;
+  margin-top:500px;
+}
+.tono{
+  position: absolute;
+  left: 66.6%;
+  margin: 10px;
+  margin-top:500px;
 }

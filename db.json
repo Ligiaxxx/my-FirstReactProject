@@ -9,66 +9,35 @@
       "password": "secret123"
     }
   ],
-  "todos": [
-    {
-      "title": "1",
-      "userId": 1,
-      "completed": false,
-      "id": 1
-    },
-    {
-      "title": "2",
-      "userId": 1,
-      "completed": true,
-      "id": 2
-    },
-    {
-      "title": "3",
-      "userId": 1,
-      "completed": true,
-      "id": 3
-    },
-    {
-      "title": "4",
-      "userId": 1,
-      "completed": false,
-      "id": 4
-    },
-    {
-      "title": "5",
-      "userId": 1,
-      "completed": false,
-      "id": 5
-    },
-    {
-      "title": "6",
-      "userId": 1,
-      "completed": false,
-      "id": 6
-    },
-    {
-      "title": "7",
-      "userId": 1,
-      "completed": false,
-      "id": 7
-    },
-    {
-      "title": "8",
-      "userId": 1,
-      "completed": false,
-      "id": 8
-    }
-  ],
+  "todos": [],
   "items": [
     {
-      "name": "Pizza Quatro Stagioni",
-      "id": 3,
+      "name": "Pizza Provinciale",
+      "id": 2,
       "price": 10.99,
       "quantity": 1
     },
     {
-      "name": "Pizza Provinciale",
-      "id": 2,
+      "name": "Paste Creamy Mushrooms ",
+      "id": 8,
+      "price": 10.99,
+      "quantity": 2
+    },
+    {
+      "name": "Paste Carbonara ",
+      "id": 7,
+      "price": 10.99,
+      "quantity": 1
+    },
+    {
+      "name": "Aripioare de pui",
+      "id": 10,
+      "price": 10.99,
+      "quantity": 2
+    },
+    {
+      "name": "Pizza Quatro Stagioni",
+      "id": 3,
       "price": 10.99,
       "quantity": 1
     }
